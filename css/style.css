@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(112, 86, 70);
+    padding-top: 100px;
+}
+
+.game{
+    align-content: center;
+    text-align: center;
+}
+.board{
+    position: relative;
+    height: 610px;width: 610px;
+    background-image: url(../images/bgImg2.jpg);
+    margin: 50px auto auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 5px;
+    /* border: rgb(20, 20, 20) 1px solid; */
+
+}
+.tile{
+    line-height: 100px;
+    text-align: center;
+    font-weight: heavy;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: #ccc;
+    font-size: large;
+}
+
+.winner{
+    color: red;
+    font-size: 100px;
+}
+.tile{
+    border: #272424 1px solid;
+    border-radius: 10px;
+    height: calc(100% / 3);width: calc(100% / 3);
+    float: left;
+}
+.tile:hover{
+    background-color: rgba(122, 122, 122, 0.287);
+}
+.X{
+    background-image: url(../images/tic-tac-toe-X.png);
+    background-color: #ccc;
+    background-size: contain;
+}
+.O{
+    background-image: url(../images/tic-tac-toe-O.png);
+    background-color: #ccc;
+    background-size: contain;
+}
